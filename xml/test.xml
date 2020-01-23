@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!DOCTYPE DATABASES SYSTEM "w.dtd">
+<DATABASES>
+	<DATABASE dbname="studentdatabase" dbtype="USER">
+		<TABLES>
+			<TABLE tname="studenttable" ttype="MASTER">
+				<RECORDS>
+					<RECORD recordno="1">
+						<FIELDS>
+							<FIELD sname="SID">1198</FIELD>
+							<FIELD sname="STUDNAME">SKV</FIELD>
+							<FIELD sname="COURSE">CSE</FIELD>
+							<FIELD sname="ADDRESS">EVERYWHERE</FIELD>
+						</FIELDS>
+					</RECORD>
+					<RECORD recordno="2">
+						<FIELDS>
+							<FIELD sname="SID">119</FIELD>
+							<FIELD sname="STUDNAME">RSP</FIELD>
+							<FIELD sname="COURSE">ECE</FIELD>
+							<FIELD sname="ADDRESS">PART1EVERYWHERE</FIELD>
+						</FIELDS>
+					</RECORD>
+					<RECORD recordno="3">
+						<FIELDS>
+							<FIELD sname="SID">11</FIELD>
+							<FIELD sname="STUDNAME">SSR</FIELD>
+							<FIELD sname="COURSE">IP</FIELD>
+							<FIELD sname="ADDRESS">PART2EVERYWHERE</FIELD>
+						</FIELDS>
+					</RECORD>
+					<RECORD recordno="4">
+						<FIELDS>
+							<FIELD sname="SID">1</FIELD>
+							<FIELD sname="STUDNAME">WWE</FIELD>
+							<FIELD sname="COURSE">MECH</FIELD>
+							<FIELD sname="ADDRESS">PART3EVERYWHERE</FIELD>
+						</FIELDS>
+					</RECORD>
+				</RECORDS>
+			</TABLE>
+		</TABLES>
+	</DATABASE>
+</DATABASES>	
+
+
+

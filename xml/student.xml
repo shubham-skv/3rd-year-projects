@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<!DOCTYPE DATABASES [
+<!ELEMENT DATABASES (DATABASE+)>
+<!ELEMENT DATABASE (TABLES+)>
+<!ATTLIST DATABASE dbname CDATA #REQUIRED  dbtype CDATA #REQUIRED >
+<!ATTLIST DATABASE dbtype CDATA #REQUIRED >
+<!ELEMENT TABLES (TABLE+)>
+<!ELEMENT TABLE (RECORD+)>
+<!ATTLIST TABLE tname CDATA #REQUIRED>
+<!ELEMENT RECORDS (RECORDS+)>
+<!ELEMENT RECORD (FIELDS+)>
+<!ATTLIST RECORD recordno CDATA #REQUIRED>
+<!ATTLIST FIELD sname CDATA #REQUIRED >
+]>
+<DATABASES>
+	<DATABASE dbname="studentdatabase" dbtype="USER">
+		<TABLES>
+			<TABLE tname="studenttable" ttype="MASTER">
+				<RECORDS>
+					<RECORD recordno="1">
+						<FIELDS>
+							<FIELD sname="SID">1198</FIELD>
+							<FIELD sname="STUDNAME">SKV</FIELD>
+							<FIELD sname="COURSE">CSE</FIELD>
+							<FIELD sname="ADDRESS">EVERYWHERE</FIELD>
+						</FIELDS>
+					</RECORD>
+					<RECORD recordno="2">
+						<FIELDS>
+							<FIELD sname="SID">119</FIELD>
+							<FIELD sname="STUDNAME">RSP</FIELD>
+							<FIELD sname="COURSE">ECE</FIELD>
+							<FIELD sname="ADDRESS">PART1EVERYWHERE</FIELD>
+						</FIELDS>
+					</RECORD>
+					<RECORD recordno="3">
+						<FIELDS>
+							<FIELD sname="SID">11</FIELD>
+							<FIELD sname="STUDNAME">SSR</FIELD>
+							<FIELD sname="COURSE">IP</FIELD>
+							<FIELD sname="ADDRESS">PART2EVERYWHERE</FIELD>
+						</FIELDS>
+					</RECORD>
+					<RECORD recordno="4">
+						<FIELDS>
+							<FIELD sname="SID">1</FIELD>
+							<FIELD sname="STUDNAME">WWE</FIELD>
+							<FIELD sname="COURSE">MECH</FIELD>
+							<FIELD sname="ADDRESS">PART3EVERYWHERE</FIELD>
+						</FIELDS>
+					</RECORD>
+				</RECORDS>
+			</TABLE>
+		</TABLES>
+	</DATABASE>
+</DATABASES>	
+
+
+
